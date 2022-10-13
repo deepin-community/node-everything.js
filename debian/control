@@ -1,0 +1,25 @@
+Source: node-everything.js
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Lucas de Castro Borges <lucas@gnuabordo.com.br>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-esprima <!nocheck>
+ , node-mocha <!nocheck>
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-everything.js
+Vcs-Git: https://salsa.debian.org/js-team/node-everything.js.git
+Homepage: https://github.com/michaelficarra/everything.js
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-everything.js
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Contains every ECMA-262 edition 5.1 grammatical production
+ Single javascript file that contains every ECMA-262 grammatical production,
+ support has been added for ECMAScript 2015.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,31 @@
+node-everything.js (1.0.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-everything.js: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto install (Closes: #974240)
+  * Enable upstream test using mocha
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 11 Nov 2020 15:28:32 +0100
+
+node-everything.js (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #842310)
+
+ -- Lucas de Castro Borges <lucas@gnuabordo.com.br>  Thu, 27 Oct 2016 19:27:42 -0300
